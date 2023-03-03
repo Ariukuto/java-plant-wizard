@@ -1,23 +1,25 @@
+import java.util.ArrayList; 
+ 
  class Plant {
     public String name;
-    public String type;
-    public String winterHardinessZone;
-    public String careLevel;
-    public String flowerColors;
-    public String foliageColors;
-    public String exposition;
-    public String foliagePhase;
+    public Pflanzenart type;
+    public int winterHardinessZone;
+    public Pflegestufe careLevel;
+    public Exposition exposition;
+    public Laubphase foliagePhase;
+    public ArrayList<Laubfarbe> foliageColors = new ArrayList<Laubfarbe>();
+    public ArrayList<Bluetenfarbe> flowerColors = new ArrayList<Bluetenfarbe>();
     
     // Konstruktur
     Plant(
         String name, 
-        String type, 
-        String winterHardinessZone, 
-        String careLevel, 
-        String flowerColors, 
-        String foliageColors, 
-        String exposition, 
-        String foliagePhase
+        Pflanzenart type, 
+        int winterHardinessZone, 
+        Pflegestufe careLevel, 
+        Exposition exposition, 
+        Laubphase foliagePhase,
+        ArrayList<Laubfarbe> foliageColors,
+        ArrayList<Bluetenfarbe> flowerColors 
     ) {
         // Hier werden die Werte, die über den Konstruktur übergeben werden, an die Felder weitergeben.
         this.name = name;
