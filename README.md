@@ -1,3 +1,3 @@
 # java-plant-wizard
 
-Ein kleines Konsolentool um Java kennezulerenn und meiner Projektgruppe OOP näher zu bringen
+Ein kleines Konsolentool um Java kennezulerenn und meiner Ehrenamtsgruppe OOP näher zu bringen
