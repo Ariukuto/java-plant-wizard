@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Answers {
-    public static Pflanzenart type;
+    public static Pflanzenart plantType;
     public static int winterHardinessZone;
     public static Pflegestufe careLevel;
     public static Exposition exposition;
@@ -12,7 +12,7 @@ public class Answers {
     public static void show() {
         System.out.println("Sie haben folgende Antworten ausgewählt");
         System.out.println(
-            "Pflanzenart: " + type + "\n" +
+            "Pflanzenart: " + plantType + "\n" +
             "winterHaerteZone: " +  winterHardinessZone + "\n" +
             "pflegestufe: " +  careLevel + "\n" +
             "exposition: " +  exposition + "\n" + 
